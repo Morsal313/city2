@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  background-color: #e2e2aa;
+  padding: 20px 20px;
+  position: static;
+}
+.search input{
+  margin-left: 500px;
+  padding-right: 100px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #ad5521;
+  padding: 15px 18px;
+  width: 250px;
+  border-color: #ad5521;
+}
+/* .serach_box i{
+  position:absolute;
+  left: 10px;
+ 
+  transform: translateY(-50%);
+  top:50% ; */
+
+/* .search_box input{
+  width:100%;
+  padding: 15px 15px 15px 50px;
+  position: relative;
+
+} */
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  padding: 10px 10px;
+  text-align: center;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #b54b13;
+  font-size: 18px;
+  display: flex;
+  gap: 5px;
+  display: inline-flex;
+  padding: 20px 20px;
+  text-align: center;
+}
+.navbar ul li a:hover {
+  color: gold;
+  cursor: grab;
+  text-shadow: 0 0 20px #ad5521;
+}
+.images {
+  background-image: url(B.jpg);
+
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 400px;
+  padding-bottom: 10px;
+}
+.images {
+  position: relative;
+  display: inline-block;
+}
+
+.images h3 {
+  text-align: center;
+  text-shadow: 3px 3px 4px rgb(236, 122, 122);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  padding-top: 380px;
+
+  padding-bottom: 100px;
+}
+.p {
+  justify-content: center;
+  color: #b54b13;
+  background-color: #f5f5dc;
+  padding: 10px 10px;
+}
+.A2 {
+  background-color: #f5f5dc;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+  padding-bottom: 100px;
+  transition: all;
+}
+.A2 img {
+  width: 300px;
+  height: 200px;
+  padding: 50px 70px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgb(235, 221, 142);
+  justify-content: center;
+  align-items: center;
+  background-color: #b54b13;
+  padding: 10px 10px 10px 10px;
+  transition: width 20s ease-in-out 0.2s;
+}
+
+.A2 h4 {
+  margin-top: 230px;
+}
+
+.img {
+  display: flex;
+  gap: 20px;
+}
+.figcaption figcaption {
+  padding: 20px;
+  text-shadow: #ec8045;
+  font-size: 17px;
+  font-style: oblique;
+  background-color: #b54b13;
+  border-radius: 30px;
+  margin-top: 7px;
+  transition: 2ms linear 1s;
+  transform: translate(10deg);
+}
+.figcaption img {
+  animation: FadeIn 5s ease-in;
+}
+
+.bamiyan {
+  float: right;
+  background-color: #b54b13;
+  text-align: justify;
+  padding: 50px 40px;
+  color: aliceblue;
+  display: flex;
+  gap: 10px;
+}
+.bamiyan img {
+  float: right;
+  width: 240px;
+  height: auto;
+  border-radius: 10px;
+  justify-items: center;
+  padding: 0%;
+  box-shadow: 0 0 30px rgb(223, 223, 137);
+}
+.bamiyan img:hover {
+  width: 300px;
+  height: auto;
+  transition: 2s linear 0.2s;
+}
+
+.bamiyan p {
+  font-size: bold;
+  font-size: 18px;
+  text-align: justify;
+  padding: 20px;
+  font-style: oblique;
+}
+.bamiyan h2 {
+  text-shadow: 0px 0px 20px #f3f398;
+  font-size: 20px;
+}
+.image12 {
+  background-color: #ad5521;
+  background-image: url(IMG_1841.jpg);
+  background-size: cover;
+  width: 700px;
+  height: 400px;
+  padding: 50px 50px;
+  margin: 100px;
+  display: grid;
+  gap: 20px;
+  box-shadow: 0 0 30px #eacf87;
+  border-radius: 20px;
+  margin-bottom: 200px;
+  animation: slider 7s linear 1s infinite;
+}
+@keyframes slider {
+  0% {
+    background-image: url(B.jpg);
+    background-color: #b54b13;
+    padding: 50px 50px;
+  }
+  5% {
+    background-image: url(afghan-girls-school-herat-afghanistan2019-600nw-2036778914.jpg);
+    transform: scale(5deg);
+  }
+  10% {
+    background-image: url(9754041536_5387bebc91_z.jpg);
+  }
+  25% {
+    background-image: url(B.png);
+    background-color: #b54b13;
+  }
+  50% {
+    background-image: url(kachalo.jpg);
+    background-color: #b54b13;
+  }
+  75% {
+    background-image: url(dum.jpg);
+    background-color: #b54b13;
+  }
+
+  100% {
+    background-image: url(silk.jpg);
+    background-color: #b54b13;
+    width: 900px;
+    transition: width 7s linear;
+  }
+}
+.para figure figcaption p {
+  border-radius: 20px;
+  background-color: #b54b13;
+  text-align: center;
+  padding: 20px 10px;
+  margin: 100px;
+  justify-content: center;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 470px;
+  box-shadow: 0 0 2rem #ebeba1;
+  margin-left: 10px;
+  color: #eacf87;
+}
+.image13 {
+  background-color: #ad5521;
+  background-image: url(IMG_1841.jpg);
+  background-size: cover;
+  width: 700px;
+  height: 400px;
+  padding: 50px 50px;
+  margin: 100px;
+  /* display: grid;
+  gap: 20px; */
+  box-shadow: 0 0 30px #eacf87;
+  border-radius: 20px;
+  animation: slider1 7s infinite;
+  margin-bottom: 200px;
+}
+@keyframes slider1 {
+  0% {
+    margin-top: 50px;
+    background-image: url(Afghanistan-Herat-Friday-Mosque.jpg);
+    background-color: #b54b13;
+    padding: 50px 50px;
+  }
+  5% {
+    background-image: url(afghan-girls-school-herat-afghanistan2019-600nw-2036778914.jpg);
+    transform: scale(5deg);
+  }
+  10% {
+    background-image: url(tumblr_inline_p8gck5NUmU1rs0u9m_500.jpg);
+  }
+  25% {
+    background-image: url(H.jpg);
+    background-color: #b54b13;
+  }
+  50% {
+    background-image: url(herat-grape-festival-2.jpg);
+    background-color: #b54b13;
+  }
+  75% {
+    background-image: url(afghanistan-medieval_herati_miniature_exibition_3-sodaba_ahrari.jpg);
+    background-color: #b54b13;
+  }
+
+  100% {
+    background-image: url(e2_afg_herat_east_residential_development_2006.jpg);
+    background-color: #b54b13;
+    width: 900px;
+    transition: width 7s ease-in-out;
+  }
+}
+.para2 figure figcaption p {
+  border-radius: 20px;
+  background-color: #b54b13;
+  text-align: center;
+  padding: 20px 10px;
+  margin: 100px;
+  justify-content: center;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 470px;
+  box-shadow: 0 0 2rem #ebeba1;
+  margin-left: 10px;
+  color: #eacf87;
+}
+.Images4 p {
+  background-color: #b54b13;
+  border-radius: 20px;
+  box-shadow: 0 0 4em #b54b13;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 20px;
+  margin-bottom: 40px;
+  color: #e2e2aa;
+  text-shadow: 0 0 10px #eacf87;
+  font-size: 20px;
+}
+.Images4 img {
+  width: 300px;
+  height: auto;
+}
+.main {
+  background-color: #fcf48a;
+  border-radius: 10px;
+  box-shadow: 0 0 4em #b54b13;
+  /* display: grid;
+  gap: 20px; */
+
+  gap: 20px;
+  border: none;
+  padding: 20px 20px;
+  display: inline-flex;
+  gap: 30px;
+  margin-bottom: 100px;
+  transform: rotate(10deg);
+  animation: slider2 10s linear 0.5s;
+}
+@keyframes slider2 {
+  0% {
+    filter: blur(4px);
+  }
+  25% {
+    filter: brightness(10deg);
+  }
+  50% {
+    filter: drop-shadow(10px);
+  }
+  100% {
+    filter: opacity(20px);
+  }
+}
+/* submit part */
+
+.form {
+  width: 400px;
+  height: auto;
+  align-items: center;
+  justify-items: center;
+  text-align: justify;
+  /* text-align: center; */
+  padding: 30px 30px;
+  background-color: #f3f3c0;
+  margin: 80px 400px;
+  color: #b54b13;
+  box-shadow: 0 0 10px #b54b13;
+  text-decoration: underline;
+  text-shadow: 0 0 20px #a46801;
+  display: flex;
+  border-radius: 20px;
+}
+#one {
+  padding: 10px 10px;
+  box-shadow: 0 0 10 #b54b13;
+  border-radius: 10px;
+  background-color: #f1f696;
+}
+.form12 input {
+  padding: 10px 10px;
+  border-radius: 10px;
+  border-color: #b54b13;
+}
+.footer {
+  background-color: #f5f5c5;
+  text-align: center;
+  color: #b54b13;
+  padding: 20px 10px;
+  padding-bottom: 50px;
+}
+.footer h2 {
+  color: #b54b13;
+  padding: 20px 20px;
+}
+.footer a img {
+  margin: 5px 20px;
+
+  display: flexbox;
+  gap: 40px;
+  box-shadow: 0 0 50px rgb(150, 86, 13);
+}
